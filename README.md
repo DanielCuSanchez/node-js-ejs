@@ -16,4 +16,4 @@ Para correr el proyecto en modo desarrollo ejecuta el script:
 
 Podrás ver el proyecto terminado en la siguiente liga:
 
-[Link de la aplicación](www.googlec.com)
+[Link de la aplicación](https://node-js-ejs-9ntgtbe7w-danielcusanchez.vercel.app/)
