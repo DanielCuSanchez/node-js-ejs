@@ -7,7 +7,7 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "node src",
+    "start": "node src/index.js",
     "dev": "nodemon src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
