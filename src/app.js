@@ -15,13 +15,13 @@ app.engine("html", require("ejs").renderFile);
 //Static files
 app.use(express.static(path.join(__dirname, "public")));
 
+app.use(require("./routes/router"));
+
 app.get("/", (req, res) => {
   const { query } = req;
   res.json({
     message: `Hello world ${query}`,
   });
 });
-
-app.use(require("./routes/router"));
 
 module.exports = { app, PORT };
