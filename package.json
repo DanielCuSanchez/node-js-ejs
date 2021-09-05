@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "12.x"
+    "node": "13.x"
   },
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "express",
+    "ejs"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
