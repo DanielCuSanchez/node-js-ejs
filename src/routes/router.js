@@ -4,7 +4,7 @@ const router = Router();
 
 router.get("/home", (req, res) => {
   res.render("pages/index", {
-    title: "Home",
+    title: "HomeDEMO",
     subtitle: "EJS",
     image: "ejs.png",
   });
